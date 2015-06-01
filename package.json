@@ -1,0 +1,25 @@
+{
+    "name": "express-oracleconnection",
+    "version": "1.0.0",
+    "description": "Connect/Express middleware that auto provides Oracle connections.",
+    "main": "index.js",
+    "directories": {
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/carpassgeek/express-oracleconnection"
+    },
+    "homepage": "https://github.com/carpassgeek/express-oracleconnection",
+    "keywords": [
+    "express",
+    "oracle",
+    "connect",
+    "pool",
+    "middleware"
+    ],
+    "author": "express-myconnection by Piotr Walczyszyn, modified for Oracle by carpass",
+    "license": "MIT"
+}
