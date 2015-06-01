@@ -5,16 +5,14 @@ Initialization is done the same way as express-myconnection but only 'single' an
   // app.js
   ...
   var oracledb = require('oracledb'),
-    myConnection = require('express-myconnection'), // express-myconnection module
+    oracleConnection = require('express-oracleconnection'), 
     dbOptions = {
-      host: 'localhost',
-      user: 'dbuser',
-      password: 'password',
-      port: 3306,
-      database: 'mydb'
+      host: 'localhost/XE',
+      user: 'schema',
+      password: 'password'
     };
 
-  app.use(myConnection(mysql, dbOptions, 'single');
+  app.use(oracleConnection(oracledb, dbOptions, 'pool');
   ...
 
 The package has been published to npmjs and can be installed via : 
